@@ -23,6 +23,7 @@ import org.json.JSONObject;
 
 @ReactModule(name = BackgroundModeModule.NAME)
 public class BackgroundModeModule extends ReactContextBaseJavaModule implements LifecycleEventListener {
+    public BackgroundModeModule(){};
     public static final String NAME = "BackgroundMode";
     private enum Event { ACTIVATE, DEACTIVATE, FAILURE }
     private ForegroundService service;

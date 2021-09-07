@@ -50,6 +50,7 @@ import static android.os.PowerManager.PARTIAL_WAKE_LOCK;
  */
 
 public class ForegroundService extends Service {
+    public ForegroundService(){};
     // Fixed ID for the 'foreground' notification
     public static final int NOTIFICATION_ID = -574543954;
 
